@@ -1,4 +1,4 @@
-import {StyleSheet, Dimensions} from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
     borderRadius: 30,
     marginHorizontal: 10,
     flexDirection: 'row',
+    // paddingHorizontal: 20,
     justifyContent: 'center',
     alignItems: 'center',
     position: 'absolute',
@@ -49,6 +50,10 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     color: '#000',
+    // flex: 5,
+  },
+  icon: {
+    // flex: 2,
   },
 });
 
