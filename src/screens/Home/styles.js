@@ -1,9 +1,9 @@
 import { StyleSheet, Dimensions } from 'react-native';
 
 const styles = StyleSheet.create({
-  container: {
-    marginTop: 50,
-  },
+  // container: {
+  //   marginTop: 50,
+  // },
   image: {
     width: '100%',
     height: 500,
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     position: 'absolute',
-    top: 25,
+    top: 50,
     zIndex: 100,
   },
   buttonText: {
