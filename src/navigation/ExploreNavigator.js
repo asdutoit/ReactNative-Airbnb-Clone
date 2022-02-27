@@ -21,7 +21,7 @@ const Router = props => {
         name={'SearchResults'}
         component={SearchResultsTabNavigator}
         options={{
-          title: 'Search your destination',
+          title: 'Search',
         }}
       />
     </Stack.Navigator>
